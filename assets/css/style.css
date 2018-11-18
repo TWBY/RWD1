@@ -26,19 +26,20 @@
   padding: 10px; }
   .intro .sblock {
     display: inline-block;
-    width: 100%;
-    height: 100%;
+    width: 15%;
     padding: 5px;
+    margin: 0px 15px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     background-color: #f24;
-    max-width: 170px; }
-  .intro img {
-    width: 100%;
-    height: 70%;
-    background-color: purple; }
-  .intro h4 {
-    margin-top: 10px; }
+    max-width: 200px; }
+    .intro .sblock img {
+      width: 100%;
+      height: 70%;
+      background-color: purple;
+      height: 100px; }
+    .intro .sblock h4 {
+      margin-top: 10px; }
 
 .icon {
   width: 30%;
@@ -64,5 +65,8 @@
     width: 100%; }
   .block3, .block4, .block5, .block6 {
     width: 100%; }
-  .sblock {
-    width: 100%; } }
+  .intro {
+    height: auto; }
+    .intro .sblock {
+      display: block;
+      width: 100%; } }
