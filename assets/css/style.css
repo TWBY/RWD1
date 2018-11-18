@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC");
+* {
+  font-family: 'Noto Sans TC', sans-serif; }
+
+.container {
+  font-size: 0px;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.block {
+  display: inline-block;
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  border: solid 2px black;
+  height: 200px; }
+
+.block1, .block7 {
+  width: 100%;
+  height: auto; }
+
+.intro {
+  width: 100%;
+  padding: 10px; }
+  .intro .sblock {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #f24;
+    max-width: 170px; }
+  .intro img {
+    width: 100%;
+    height: 70%;
+    background-color: purple; }
+  .intro h4 {
+    margin-top: 10px; }
+
+.icon {
+  width: 30%;
+  min-width: 250px; }
+
+.block2, .block4, .block5 {
+  width: 30%; }
+
+.block3 {
+  width: 70%; }
+
+.block6 {
+  width: 40%; }
+
+@media screen and (max-width: 800px) {
+  .block2 {
+    width: 100%; }
+  .block3, .block4, .block5, .block6 {
+    width: 50%; } }
+
+@media screen and (max-width: 400px) {
+  .block2 {
+    width: 100%; }
+  .block3, .block4, .block5, .block6 {
+    width: 100%; }
+  .sblock {
+    width: 100%; } }
